@@ -10,9 +10,9 @@ import time
 from datetime import datetime
 
 # Connect to Redis Database
-hostname = 'redis-12976.c256.us-east-1-2.ec2.cloud.redislabs.com'
-port = 12976
-password = "yyyQ0aPqDji19C3efoRGgeYsF8C0bvTO"
+hostname = 'redis-10914.c326.us-east-1-3.ec2.redns.redis-cloud.com'
+port = 10914
+password = "LZecMR4plTbYvT6h6HsnXkkevhBG5stj"
 r = redis.Redis(host=hostname, port=port,password=password)
 
 # Retrive Data from Database
